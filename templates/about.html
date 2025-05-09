@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}About Me | My Portfolio{% endblock %}
+
+{% block content %}
+<section class="about-header">
+    <div class="container">
+        <h1>About Me</h1>
+        <p class="subtitle">Get to know me and my background</p>
+    </div>
+</section>
+
+<section class="about-content">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x500" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <h2>Who Am I?</h2>
+                <p>I'm Zeyi Chen, a passionate full-stack developer with a keen eye for design and a love for building intuitive, user-friendly applications. With over 5 years of experience in web development, I've worked on a variety of projects from small business websites to complex enterprise applications.</p>
+                
+                <p>I believe in writing clean, maintainable code and creating applications that not only look great but also provide exceptional user experiences. When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new development technologies.</p>
+                
+                <h3>My Approach</h3>
+                <p>I approach each project with a focus on simplicity, functionality, and user experience. I believe that the best solutions are often the simplest ones, and I strive to find the perfect balance between aesthetics and functionality in every project I work on.</p>
+                
+                <div class="about-buttons">
+                    <a href="/contact" class="btn primary">Contact Me</a>
+                    <a href="#" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience">
+    <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Senior Developer</h3>
+                    <h4>Tech Innovators Inc.</h4>
+                    <p class="timeline-date">2020 - Present</p>
+                    <p>Lead development of various web applications, mentored junior developers, and implemented best practices for code quality.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Full Stack Developer</h3>
+                    <h4>Digital Solutions LLC</h4>
+                    <p class="timeline-date">2017 - 2020</p>
+                    <p>Developed and maintained multiple client websites, created custom plugins, and collaborated with design team on UI/UX improvements.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <h4>University of Technology</h4>
+                    <p class="timeline-date">2013 - 2017</p>
+                    <p>Focused on web technologies and software engineering. Graduated with honors.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2 class="section-title">What People Say</h2>
+        
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    <p>"John is an exceptional developer who consistently delivered high-quality work on time. His attention to detail and problem-solving skills made him an invaluable asset to our project."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/60x60" alt="Jane Smith">
+                    <div>
+                        <h4>Jane Smith</h4>
+                        <p>Project Manager, TechCorp</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    <p>"Working with John was a pleasure. He not only understood our technical requirements but also provided valuable insights that improved our product's user experience."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/60x60" alt="Michael Johnson">
+                    <div>
+                        <h4>Michael Johnson</h4>
+                        <p>CEO, StartUp Innovations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %} 
