@@ -32,8 +32,8 @@ A beautiful, responsive personal portfolio website built with Flask, featuring a
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/babu111/personal_portfolio.git
+   cd personal_portfolio
    ```
 
 2. Create a virtual environment (recommended)
